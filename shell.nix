@@ -25,6 +25,7 @@ pkgs.mkShell {
     stdenv 
     gcc
     rustc
+    sqlx-cli
   ];
 
   # RUST_BACKTRACE = "full";
